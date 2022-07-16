@@ -1,12 +1,10 @@
 import React, { useState } from 'react'
-import { Outlet } from 'react-router-dom'
+import ToolBar from '@/components/ToolBar'
 import './App.scss'
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <div className="App">
-      <Outlet></Outlet>
+      <ToolBar />
     </div>
   )
 }
